@@ -4,15 +4,16 @@ public class Aluno {
 
 	final String nome;
 	final double nota;
+	final boolean bomComportamento;
 	
 	public Aluno(String nome, double nota) {
-		this.nome = nome;
-		this.nota = nota;
+		this(nome, nota, true);
 	}
 	
-	@Override
-	public String toString() {
-		// TODO Auto-generated method stub
-		return super.toString();
+	public Aluno(String nome, double nota, boolean bomComportamento) {
+		this.nome = nome;
+		this.nota = nota;
+		this.bomComportamento = bomComportamento;
 	}
+	
 }
