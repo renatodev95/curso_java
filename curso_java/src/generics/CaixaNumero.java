@@ -5,4 +5,6 @@ public class CaixaNumero<N extends Number> extends Caixa<N> {
 	// poderá conter, N está herdando da classe Number, dessa forma,
 	// o tipo resolvido em Caixa deverá ser o mesmo que está herdando
 	// de Number, no caso o N.
+	
+	
 }
