@@ -3,7 +3,7 @@ package generics;
 import java.util.Objects;
 
 // 249. Criando uma Estrutura Chave/Valor com Generics
-public class Par<C, V>  {
+public class Par<C, V> {
 
 	private C chave;
 	private V valor;
