@@ -11,7 +11,7 @@ public class ConnectionFactory {
 
 		try {
 
-			String url = "jdbc:mysql://localhost?verifyServerCertificate=false&useSSL=true";
+			String url = "jdbc:mysql://localhost/curso_java?verifyServerCertificate=false&useSSL=true";
 			String usuario = "root";
 			String senha = "12345678";
 			return DriverManager.getConnection(url, usuario, senha);
